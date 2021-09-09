@@ -27,8 +27,6 @@ namespace DOTNET_RPG.Services.CharacterService
 
         public CharacterService(IMapper mapper,DataContext context,IHttpContextAccessor httpContextAccessor)
         {   
-
-
             _httpContextAccessor = httpContextAccessor;
             _context = context;
             _mapper = mapper;
